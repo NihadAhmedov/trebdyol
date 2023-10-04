@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.trimg {
+    width: 150px;
+
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 25px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.search2 {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    color: orange;
+
+}
+
+.search {
+    position: relative;
+}
+
+.trend {
+    width: 600px;
+    padding: 5px;
+    background-color: gainsboro;
+    border: none;
+}
+
+.giris {
+    display: flex;
+    gap: 36px;
+}
+
+.giris span {
+    cursor: pointer;
+}
+
+.giris div:hover {
+    color: orange;
+}
+
+.links {
+    list-style-type: none;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-top: 25px;
+
+
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.links a:hover {
+    padding-bottom: 6px;
+    border-bottom: 4px solid orange;
+}
+
+.img1 {
+    width: 70px;
+}
+
+.imgs {
+    width: 80.5%;
+    margin: 0 auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.one{
+    display: flex;
+    gap: 100px;
+   margin-top: 50px;
+   margin-left: 250px;
+   
+}
+.sepet p:hover{
+    background-color: orange;
+    cursor: pointer;
+    color: #fff;
+    
+}
+.one p{
+    padding: 15px;
+    background-color: gainsboro;
+    width: 23%;
+    text-align: center;
+    
+}
+.foto{
+   width: 80%;
+   margin: 0 auto;
+   display: flex;
+  margin-top: 30px;
+    
+}
+.foto1{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 30px;
+
+}
+.foto2{
+    width: 400px;
+    height: 250px;
+  /* margin: 2rem; */
+}
